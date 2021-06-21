@@ -1,0 +1,23 @@
+.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+.breadcrumb a {
+    display: inline;
+    font-size: 16px;
+    color: #0275d8;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.breadcrumb a+a:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+
+.breadcrumb a:hover {
+    color: #01447e;
+  }
